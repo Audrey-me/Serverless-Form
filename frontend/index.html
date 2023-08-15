@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contact-form.css"/>
+    <title>Contact Form</title>
+</head>
+<body>
+    <section class="form-container">
+        <h2 class="title">CONTACT FORM</h2>
+        <form class="contact-form" id="contact-form">
+            <div class="form-details">
+                <label>Full Name<span class="red-asterisk">*</span></label>
+                <input class="" type="text" id="name" required >
+            </div>
+            <div class="form-details">
+                <label>Email Address<span class="red-asterisk">*</span></label>
+                <input class="" type="email" id="email" required>
+            </div>
+            <div class="form-details">
+                <label>LinkedIn Url (optional)<span class="red-asterisk">*</span></label>
+                <input class="" type="url" id="url">
+            </div>
+            <div class="form-details">
+                <label>Phone Number<span class="red-asterisk">*</span></label>
+                <input class="" type="text" id="phone" required>
+            </div>
+            
+              <div><input type="checkbox" class="remember-me-checkbox"><span class="remember-me">Subscribe</span></div>
+            
+        </form>
+        <div class="btn-container">
+            <p class="result"></p>
+            <button class="submit-btn" id="submit-btn">Submit</button>
+        </div>
+    </section>
+
+    <script src="contact-form.js"></script>
+</body>
+</html>
